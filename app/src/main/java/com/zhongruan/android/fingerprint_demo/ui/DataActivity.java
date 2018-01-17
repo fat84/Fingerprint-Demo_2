@@ -316,10 +316,11 @@ public class DataActivity extends BaseActivity implements View.OnClickListener {
                         } else {
                             dialog.dismiss();
                         }
+
                     }
                 }).setBackgroundResource(R.drawable.img_base_icon_question).setNOVisibility(true).setLLButtonVisibility(true).setTitle("U盘导入数据").setPositiveButton("是").setNegativeButton("否").show();
                 if (isError) {
-                    ShowHintDialog(this, hint, "U盘导入数据", R.drawable.img_base_icon_error, "知道了", false);
+                    ShowHintDialog(DataActivity.this, hint, "U盘导入数据", R.drawable.img_base_icon_error, "知道了", false);
                 }
                 break;
             case R.id.ll_net_dr:
