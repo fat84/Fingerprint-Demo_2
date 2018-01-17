@@ -316,6 +316,8 @@ public class DataActivity extends BaseActivity implements View.OnClickListener {
                         } else {
                             dialog.dismiss();
                         }
+
+
                         //11111111111111测试
 
                     }
