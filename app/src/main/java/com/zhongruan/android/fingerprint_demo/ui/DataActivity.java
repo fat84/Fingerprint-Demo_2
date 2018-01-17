@@ -316,6 +316,7 @@ public class DataActivity extends BaseActivity implements View.OnClickListener {
                         } else {
                             dialog.dismiss();
                         }
+                        //11111111111111测试
 
                     }
                 }).setBackgroundResource(R.drawable.img_base_icon_question).setNOVisibility(true).setLLButtonVisibility(true).setTitle("U盘导入数据").setPositiveButton("是").setNegativeButton("否").show();
