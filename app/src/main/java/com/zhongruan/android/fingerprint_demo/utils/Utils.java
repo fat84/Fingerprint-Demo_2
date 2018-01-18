@@ -19,6 +19,11 @@ public class Utils {
     public static final int LEFT_FINGER_LITTLE = 0;
     public static final int LEFT_FINGER_MIDDLE = 2;
     public static final int LEFT_FINGER_THUMB = 4;
+
+
+
+
+
     final List<String> list;
 
     public Utils(List<String> list) {
